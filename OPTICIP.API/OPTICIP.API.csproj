@@ -11,9 +11,13 @@
 
   <ItemGroup>
     <Compile Remove="jsreport\**" />
+    <Compile Remove="Logs\**" />
     <Content Remove="jsreport\**" />
+    <Content Remove="Logs\**" />
     <EmbeddedResource Remove="jsreport\**" />
+    <EmbeddedResource Remove="Logs\**" />
     <None Remove="jsreport\**" />
+    <None Remove="Logs\**" />
   </ItemGroup>
 
   <ItemGroup>
